@@ -1,15 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"Player",
+  "%Name":"ParentMonsters",
   "eventList":[],
   "managed":true,
-  "name":"Player",
+  "name":"ParentMonsters",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Monsters",
+    "path":"folders/Objects/Monsters.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"ParentFocusable",
+    "path":"objects/ParentFocusable/ParentFocusable.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

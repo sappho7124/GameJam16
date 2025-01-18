@@ -1,2 +1,7 @@
-/// @description Insert description here
-// You can write your code in this editor
+if global.object_in_focus != noone {
+	visible = true
+	x = global.object_in_focus.x
+	y = global.object_in_focus.y
+} else {
+	visible = false
+}

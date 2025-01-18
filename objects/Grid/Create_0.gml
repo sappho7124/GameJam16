@@ -16,7 +16,7 @@ for (var i = 0; i < instances; i++) {
     //if (object_get_parent(inst.object_index) != obj_door_parent) {
         // Add the instance to the grid
 	//	mp_grid_add_instances(grid, inst,0);
-    }
+    //}
 }
 mp_grid_add_instances(grid, ParentHardObject,0);
 

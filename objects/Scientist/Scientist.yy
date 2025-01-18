@@ -9,7 +9,10 @@
     "name":"Humans",
     "path":"folders/Objects/Humans.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Human",
+    "path":"objects/Human/Human.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"scientist_1",
+    "path":"sprites/scientist_1/scientist_1.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

@@ -1,20 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"Assasin",
+  "%Name":"ParentFocusable",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Assasin",
+  "name":"ParentFocusable",
   "overriddenProperties":[],
   "parent":{
-    "name":"Monsters",
-    "path":"folders/Objects/Monsters.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"ParentMonsters",
-    "path":"objects/ParentMonsters/ParentMonsters.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"placeholder_monster",
-    "path":"sprites/placeholder_monster/placeholder_monster.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
