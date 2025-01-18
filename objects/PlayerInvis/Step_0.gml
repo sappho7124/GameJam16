@@ -6,8 +6,8 @@ keyDown = keyboard_check(vk_down) || keyboard_check(ord("S"));
 inputDirection = point_direction(0,0,keyRight-keyLeft,keyDown-keyUp);
 inputMagnitude = (keyRight-keyLeft != 0) || (keyDown-keyUp != 0);
 
-hSpeed = lengthdir_x(inputMagnitude * speedWalk, inputDirection);
-vSpeed = lengthdir_y(inputMagnitude * speedWalk, inputDirection);
+hSpeed = lengthdir_x(inputMagnitude * camSpeed, inputDirection);
+vSpeed = lengthdir_y(inputMagnitude * camSpeed, inputDirection);
 
 if PlayerCamera.follow = PlayerInvis{
 	x += hSpeed

@@ -6,7 +6,10 @@
   ],
   "managed":true,
   "name":"Assasin",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ParentFocusable","path":"objects/ParentFocusable/ParentFocusable.yy",},"propertyId":{"name":"title","path":"objects/ParentFocusable/ParentFocusable.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Assasin",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ParentFocusable","path":"objects/ParentFocusable/ParentFocusable.yy",},"propertyId":{"name":"description","path":"objects/ParentFocusable/ParentFocusable.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"He will kill you",},
+  ],
   "parent":{
     "name":"Monsters",
     "path":"folders/Objects/Monsters.yy",

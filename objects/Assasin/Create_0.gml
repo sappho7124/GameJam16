@@ -1,2 +1,1 @@
-focusable = true;
-followable = true;
+;

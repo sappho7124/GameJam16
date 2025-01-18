@@ -4,7 +4,10 @@
   "eventList":[],
   "managed":true,
   "name":"ParentMonsters",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ParentFocusable","path":"objects/ParentFocusable/ParentFocusable.yy",},"propertyId":{"name":"focusable","path":"objects/ParentFocusable/ParentFocusable.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ParentFocusable","path":"objects/ParentFocusable/ParentFocusable.yy",},"propertyId":{"name":"followable","path":"objects/ParentFocusable/ParentFocusable.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
+  ],
   "parent":{
     "name":"Monsters",
     "path":"folders/Objects/Monsters.yy",

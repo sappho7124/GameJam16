@@ -4,7 +4,10 @@
   "eventList":[],
   "managed":true,
   "name":"Scientist",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ParentFocusable","path":"objects/ParentFocusable/ParentFocusable.yy",},"propertyId":{"name":"title","path":"objects/ParentFocusable/ParentFocusable.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Scientist",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ParentFocusable","path":"objects/ParentFocusable/ParentFocusable.yy",},"propertyId":{"name":"description","path":"objects/ParentFocusable/ParentFocusable.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Its a guy that does science",},
+  ],
   "parent":{
     "name":"Humans",
     "path":"folders/Objects/Humans.yy",

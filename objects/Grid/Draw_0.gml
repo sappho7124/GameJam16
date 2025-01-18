@@ -1,2 +1,4 @@
-//mp_grid_draw(grid);
-//draw_set_alpha(0.2)
+if global.debugger_on {
+	mp_grid_draw(grid);
+	draw_set_alpha(0.2)
+}

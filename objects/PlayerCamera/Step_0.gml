@@ -29,8 +29,8 @@ if (follow != PlayerInvis) {
     global.wasd_timer = 0;
 }
 
-x += (xTo - x) / camSpeed;
-y += (yTo - y) / camSpeed;
+x += (xTo - x) / camSnap;
+y += (yTo - y) / camSnap;
 
 // Controls zoom
 if (keyboard_check(vk_add) || keyboard_check(ord("=")) || mouse_wheel_down() ) {

@@ -1,3 +1,3 @@
 hSpeed = 0
 vSpeed = 0
-speedWalk = 2.0
+camSpeed = 3.0

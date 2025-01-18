@@ -1,0 +1,1 @@
+global.debugger_on = true;
