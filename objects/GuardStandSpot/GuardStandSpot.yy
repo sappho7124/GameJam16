@@ -1,13 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Debugger",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"GuardStandSpot",
+  "eventList":[],
   "managed":true,
-  "name":"Debugger",
+  "name":"GuardStandSpot",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -32,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"checkbox",
-    "path":"sprites/checkbox/checkbox.yy",
+    "name":"placeholder_spot",
+    "path":"sprites/placeholder_spot/placeholder_spot.yy",
   },
   "spriteMaskId":null,
   "visible":true,

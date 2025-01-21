@@ -15,7 +15,7 @@ if (mini_state_duration > 0) {
 } else {
     // Timer expired; pick a new mini_state and set its duration
     mini_state = irandom(2); // Random selection between cases (adjust range for more mini_states)
-	show_debug_message("new ministate" + string(mini_state))
+	//show_debug_message("new ministate" + string(mini_state))
 
     switch (mini_state) {
         case 0:

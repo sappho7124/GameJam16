@@ -20,5 +20,6 @@ function path_to_location(p_target_x, p_target_y, p_speed) {
         // Path creation failed (e.g., no valid path to target)
         path_delete(path); // Cleanup
         show_debug_message("Failed to create a path to the target!");
+		return false
     }
 }

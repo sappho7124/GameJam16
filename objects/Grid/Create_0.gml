@@ -13,6 +13,4 @@ for (var i = 0; i < instances; i++) {
 }
 mp_grid_add_instances(grid, ParentHardObject,0);
 
-
-
 depth = -3000
