@@ -46,8 +46,8 @@
   "resources":[
     {"id":{"name":"Assasin","path":"objects/Assasin/Assasin.yy",},},
     {"id":{"name":"Clock","path":"objects/Clock/Clock.yy",},},
-    {"id":{"name":"Door","path":"objects/Door/Door.yy",},},
     {"id":{"name":"Debugger","path":"objects/Debugger/Debugger.yy",},},
+    {"id":{"name":"Door","path":"objects/Door/Door.yy",},},
     {"id":{"name":"EmoteForHumans","path":"objects/EmoteForHumans/EmoteForHumans.yy",},},
     {"id":{"name":"FocusObjectInfo","path":"objects/FocusObjectInfo/FocusObjectInfo.yy",},},
     {"id":{"name":"Grid","path":"objects/Grid/Grid.yy",},},
