@@ -1,15 +1,23 @@
 {
   "$GMObject":"",
   "%Name":"Scientist",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"Scientist",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ParentFocusable","path":"objects/ParentFocusable/ParentFocusable.yy",},"propertyId":{"name":"title","path":"objects/ParentFocusable/ParentFocusable.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Scientist",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ParentFocusable","path":"objects/ParentFocusable/ParentFocusable.yy",},"propertyId":{"name":"description","path":"objects/ParentFocusable/ParentFocusable.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Its a guy that does science",},
+  ],
   "parent":{
     "name":"Humans",
     "path":"folders/Objects/Humans.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Human",
+    "path":"objects/Human/Human.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +35,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"scientist_1",
+    "path":"sprites/scientist_1/scientist_1.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

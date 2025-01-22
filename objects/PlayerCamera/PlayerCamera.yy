@@ -1,20 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"Guard",
+  "%Name":"PlayerCamera",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Guard",
+  "name":"PlayerCamera",
   "overriddenProperties":[],
   "parent":{
-    "name":"Humans",
-    "path":"folders/Objects/Humans.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"Human",
-    "path":"objects/Human/Human.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

@@ -1,20 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"Guard",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"NpcInteractable",
+  "eventList":[],
   "managed":true,
-  "name":"Guard",
+  "name":"NpcInteractable",
   "overriddenProperties":[],
   "parent":{
-    "name":"Humans",
-    "path":"folders/Objects/Humans.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"Human",
-    "path":"objects/Human/Human.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

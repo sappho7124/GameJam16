@@ -1,20 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"Guard",
+  "%Name":"FocusObjectInfo",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Guard",
+  "name":"FocusObjectInfo",
   "overriddenProperties":[],
   "parent":{
-    "name":"Humans",
-    "path":"folders/Objects/Humans.yy",
+    "name":"UI",
+    "path":"folders/Objects/UI.yy",
   },
-  "parentObjectId":{
-    "name":"Human",
-    "path":"objects/Human/Human.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"placeholder_redcircle",
+    "path":"sprites/placeholder_redcircle/placeholder_redcircle.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
