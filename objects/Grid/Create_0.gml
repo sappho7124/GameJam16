@@ -1,25 +1,19 @@
-depth = -3000
+depth = -3000;
 
-grid = mp_grid_create(0,0, room_width/16, room_height/16,16,16);
+global.grid = mp_grid_create(0, 0, room_width / 16, room_height / 16, 16, 16);
 
-// Get all instances of obj_parent_hard
-var instances = instance_number(ParentHardObject);
-
-// Loop through each instance
-for (var i = 0; i < instances; i++) {
+var hard_objects = instance_number(ParentHardObject);
+for (var i = 0; i < hard_objects; i++) {
     var inst = instance_find(ParentHardObject, i);
-    
-	//this code is a copy and past from the gamejam 15 project, 
-	//i dont really remember what it did so just comment it for now
-	
-    // Check if the instance's parent is not obj_door_parent
-    //if (object_get_parent(inst.object_index) != obj_door_parent) {
-        // Add the instance to the grid
-	//	mp_grid_add_instances(grid, inst,0);
+    mp_grid_add_instances(global.grid, inst, 0);
+}
+
+var doors = instance_number(Door);
+for (var i = 0; i < doors; i++) {
+    var door = instance_find(Door, i);
+    if (!variable_instance_exists(door, "is_closed") || !door.is_closed) {
+        mp_grid_add_instances(global.grid, door, 0);
     }
 }
-mp_grid_add_instances(grid, ParentHardObject,0);
 
-
-
-depth = -3000
+depth = -3000;
