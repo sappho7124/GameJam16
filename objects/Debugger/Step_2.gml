@@ -8,6 +8,6 @@ x = view_x + view_width - sprite_width / 2;
 y = view_y + sprite_height / 2;
 
 
-var scale = camera_get_view_width(view_camera[0])/PlayerCamera.camWidth
-image_xscale = scale;
-image_yscale = scale;
+ui_debugger_scale = camera_get_view_width(view_camera[0])/PlayerCamera.camWidth
+image_xscale = ui_debugger_scale;
+image_yscale = ui_debugger_scale;

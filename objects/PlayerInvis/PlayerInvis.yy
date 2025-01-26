@@ -11,8 +11,8 @@
   "name":"PlayerInvis",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Player Camera",
+    "path":"folders/Objects/Player Camera.yy",
   },
   "parentObjectId":null,
   "persistent":false,
