@@ -35,6 +35,8 @@
     {"name":"inst_10F6A66","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_61CCEDE3","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_2A25290F","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_79D4E28D","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_4EB52734","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -71,7 +73,13 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"DroppedGun","path":"objects/DroppedGun/DroppedGun.yy",},"propertyId":{"name":"gun","path":"objects/DroppedGun/DroppedGun.yy",},"resource":{"name":"Rifle","path":"objects/Rifle/Rifle.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Rifle",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":864.0,"y":224.0,},
         {"$GMRInstance":"v1","%Name":"inst_61CCEDE3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_61CCEDE3","objectId":{"name":"DroppedGun","path":"objects/DroppedGun/DroppedGun.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":224.0,"y":64.0,},
-        {"$GMRInstance":"v1","%Name":"inst_2A25290F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2A25290F","objectId":{"name":"Guard","path":"objects/Guard/Guard.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":64.0,},
+        {"$GMRInstance":"v1","%Name":"inst_2A25290F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2A25290F","objectId":{"name":"Guard","path":"objects/Guard/Guard.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Human","path":"objects/Human/Human.yy",},"propertyId":{"name":"equipment","path":"objects/Human/Human.yy",},"resource":{"name":"Pistol","path":"objects/Pistol/Pistol.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Pistol",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":64.0,},
+        {"$GMRInstance":"v1","%Name":"inst_79D4E28D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_79D4E28D","objectId":{"name":"DroppedGun","path":"objects/DroppedGun/DroppedGun.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"DroppedGun","path":"objects/DroppedGun/DroppedGun.yy",},"propertyId":{"name":"gun","path":"objects/DroppedGun/DroppedGun.yy",},"resource":{"name":"Shotgun","path":"objects/Shotgun/Shotgun.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Shotgun",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":480.0,"y":96.0,},
+        {"$GMRInstance":"v1","%Name":"inst_4EB52734","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4EB52734","objectId":{"name":"Turret","path":"objects/Turret/Turret.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":608.0,"y":128.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4281153567,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

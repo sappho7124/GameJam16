@@ -45,11 +45,29 @@ if equiped_to != noone {
                     var bx = x + lengthdir_x(1, image_angle);
                     var by = y + lengthdir_y(1, image_angle);
                     
-                    // Create bullet
-                    var b = instance_create_depth(bx, by, depth-1, Bullet);
-                    b.direction = image_angle;
-                    b.image_angle = image_angle;
-                    // Weapon kick effect
+					// Create bullet(s)
+					if (is_shotgun) {
+    
+					    for (var i = 0; i < amount_of_bullets; i++) {
+					        // Calculate evenly distributed spread offsets
+					        var spread_offset = 0;
+					        if (amount_of_bullets > 1) {
+					            spread_offset = -spread + (i * (2 * spread) / (amount_of_bullets - 1));
+					        }
+        
+					        // Create bullet
+					        var var_bullet = instance_create_depth(bx, by, depth-1, Bullet);
+					        var_bullet.direction = image_angle + spread_offset;  // Apply spread
+					        var_bullet.image_angle = var_bullet.direction;           // Sync rotation
+					    }
+					} else {
+					    // Default single bullet
+					    var a = instance_create_depth(bx, by, depth-1, Bullet);
+					    a.direction = image_angle;
+					    a.image_angle = a.direction;
+					}
+					
+					                    // Weapon kick effect
                     image_xscale *= 0.9;
                     image_yscale *= 0.9;
                     
