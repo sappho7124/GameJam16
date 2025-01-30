@@ -4,7 +4,12 @@
   "eventList":[],
   "managed":true,
   "name":"Pistol",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ParentGuns","path":"objects/ParentGuns/ParentGuns.yy",},"propertyId":{"name":"right_offset_y","path":"objects/ParentGuns/ParentGuns.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"8",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ParentGuns","path":"objects/ParentGuns/ParentGuns.yy",},"propertyId":{"name":"left_offset_y","path":"objects/ParentGuns/ParentGuns.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"8",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ParentGuns","path":"objects/ParentGuns/ParentGuns.yy",},"propertyId":{"name":"current_mag","path":"objects/ParentGuns/ParentGuns.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"8",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ParentGuns","path":"objects/ParentGuns/ParentGuns.yy",},"propertyId":{"name":"mag_total","path":"objects/ParentGuns/ParentGuns.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"8",},
+  ],
   "parent":{
     "name":"Guns",
     "path":"folders/Objects/Guns.yy",

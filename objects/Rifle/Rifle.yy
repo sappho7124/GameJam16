@@ -4,7 +4,12 @@
   "eventList":[],
   "managed":true,
   "name":"Rifle",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ParentGuns","path":"objects/ParentGuns/ParentGuns.yy",},"propertyId":{"name":"firerate","path":"objects/ParentGuns/ParentGuns.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ParentGuns","path":"objects/ParentGuns/ParentGuns.yy",},"propertyId":{"name":"current_mag","path":"objects/ParentGuns/ParentGuns.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"20",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ParentGuns","path":"objects/ParentGuns/ParentGuns.yy",},"propertyId":{"name":"mag_total","path":"objects/ParentGuns/ParentGuns.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"20",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ParentGuns","path":"objects/ParentGuns/ParentGuns.yy",},"propertyId":{"name":"reload_cooldown","path":"objects/ParentGuns/ParentGuns.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"300",},
+  ],
   "parent":{
     "name":"Guns",
     "path":"folders/Objects/Guns.yy",

@@ -1,15 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"ParentHardObject",
+  "%Name":"Bullet_Trail",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"ParentHardObject",
+  "name":"Bullet_Trail",
   "overriddenProperties":[],
   "parent":{
-    "name":"Map Objects",
-    "path":"folders/Objects/Map Objects.yy",
+    "name":"Bullets",
+    "path":"folders/Objects/Guns/Bullets.yy",
   },
   "parentObjectId":null,
   "persistent":false,

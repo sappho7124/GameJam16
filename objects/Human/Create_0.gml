@@ -70,7 +70,7 @@ alarm[0] = 1; // Start the alarm loop
 
 alarm[11] = 1; // Start the alarm loop
 
-function monster_detected (monster_instance){
+function monster_detected_human (monster_instance){
 	alarm[current_state] = -1;
 	switch current_state{
 		 case 0:

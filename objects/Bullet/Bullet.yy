@@ -1,15 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"ParentHardObject",
+  "%Name":"Bullet",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"ParentHardObject",
+  "name":"Bullet",
   "overriddenProperties":[],
   "parent":{
-    "name":"Map Objects",
-    "path":"folders/Objects/Map Objects.yy",
+    "name":"Bullets",
+    "path":"folders/Objects/Guns/Bullets.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"bullet",
+    "path":"sprites/bullet/bullet.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
