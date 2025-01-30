@@ -1,4 +1,4 @@
-// Check if global.object_in_focus is valid
+ // Check if global.object_in_focus is valid
 if (global.object_in_focus != noone) {
     // Fixed box dimensions
     var box_width = infobox_box_width;
