@@ -32,3 +32,11 @@ function set_attack_ministate(new_state) {
 combat_cooldown = 0;
 preferred_combat_range = 192; // 3 tiles at 64px
 current_cover = noone;
+
+if equipment != noone {
+	var gun_created = instance_create_depth(x ,y ,depth, equipment,{
+	equiped_to: id,
+	});
+	equiped = gun_created
+
+}
