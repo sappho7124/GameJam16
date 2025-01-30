@@ -16,10 +16,11 @@ function path_to_location(p_target_x, p_target_y, p_speed) {
     if (mp_grid_path(Grid.grid, path, x, y, p_target_x, p_target_y, 1)) {
         // Start moving along the path
         path_start(path, p_speed, path_action_stop, true);
+		return true
     } else {
         // Path creation failed (e.g., no valid path to target)
         path_delete(path); // Cleanup
-        show_debug_message("Failed to create a path to the target!");
+        //show_debug_message("Failed to create a path to the target!");
 		return false
     }
 }
