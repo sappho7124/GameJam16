@@ -196,6 +196,7 @@
     {"id":{"name":"table","path":"sprites/table/table.yy",},},
     {"id":{"name":"turret_body","path":"sprites/turret_body/turret_body.yy",},},
     {"id":{"name":"turret_gun","path":"sprites/turret_gun/turret_gun.yy",},},
+    {"id":{"name":"test_infobox","path":"sprites/test_infobox/test_infobox.yy",},},
     {"id":{"name":"wheel_d","path":"sprites/wheel_d/wheel_d.yy",},},
     {"id":{"name":"wheel_l","path":"sprites/wheel_l/wheel_l.yy",},},
     {"id":{"name":"wheel_r","path":"sprites/wheel_r/wheel_r.yy",},},
@@ -210,9 +211,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"NPC_1000","path":"rooms/NPC_1000/NPC_1000.yy",},},
-    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"alpha_facility","path":"rooms/alpha_facility/alpha_facility.yy",},},
     {"roomId":{"name":"MainTitle","path":"rooms/MainTitle/MainTitle.yy",},},
     {"roomId":{"name":"OpeningPowerPoint","path":"rooms/OpeningPowerPoint/OpeningPowerPoint.yy",},},
