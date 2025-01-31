@@ -1,0 +1,1 @@
+alarm_set(mode, irandom_range(60,80));
