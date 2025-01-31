@@ -1,5 +1,7 @@
 event_inherited();
 
+wheel_options = [btn_torreta_all, btn_luz_red, btn_seguridad_2]
+
 spriteFront = guard_1;
 spriteBack = guard_2;
 spriteLeft = guard_3;
