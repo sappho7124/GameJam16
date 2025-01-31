@@ -14,7 +14,7 @@ button_icons = []
 menu_center_x = 0
 menu_center_y = 0
 
-
+dearest_object = noone
 
 
 right_left_offsetx = 45

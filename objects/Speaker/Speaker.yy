@@ -1,15 +1,24 @@
 {
   "$GMObject":"",
   "%Name":"Speaker",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"Speaker",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ParentFocusable","path":"objects/ParentFocusable/ParentFocusable.yy",},"propertyId":{"name":"focusable","path":"objects/ParentFocusable/ParentFocusable.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ParentFocusable","path":"objects/ParentFocusable/ParentFocusable.yy",},"propertyId":{"name":"title","path":"objects/ParentFocusable/ParentFocusable.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Its a speaker",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ParentFocusable","path":"objects/ParentFocusable/ParentFocusable.yy",},"propertyId":{"name":"description","path":"objects/ParentFocusable/ParentFocusable.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Use it to give commands",},
+  ],
   "parent":{
     "name":"Interactables",
     "path":"folders/Objects/Interactables.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"ParentFocusable",
+    "path":"objects/ParentFocusable/ParentFocusable.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
