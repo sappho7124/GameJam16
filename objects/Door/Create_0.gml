@@ -6,8 +6,8 @@
  wheel_options = [btn_block_open, btn_info]
  
 function right_menu(){
-	var grid_x = floor(x);
-	var grid_y = floor(y);
+	var grid_x = floor(bbox_left);
+	var grid_y = floor(bbox_top);
 
 	var grid_x_2 = floor(bbox_right)-1;
 	var grid_y_2 = floor(bbox_bottom)-1;

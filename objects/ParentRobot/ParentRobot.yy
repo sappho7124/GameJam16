@@ -13,7 +13,10 @@
     "name":"Robots",
     "path":"folders/Objects/Robots.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"ParentFocusable",
+    "path":"objects/ParentFocusable/ParentFocusable.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
