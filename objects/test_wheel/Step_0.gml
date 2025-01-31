@@ -15,4 +15,4 @@ if (selected_item < 0) selected_item += menu_items;
 if (mouse_check_button_pressed(mb_left) && exists == true) {
     show_message("coso seleccionado: " + string(selected_item + 1));
 	exists = false;
-}
+} 

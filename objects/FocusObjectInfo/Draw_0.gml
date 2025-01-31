@@ -14,7 +14,8 @@ if (global.object_in_focus != noone) {
 
     // Set background color and draw the box
     draw_set_color(c_blue); // Blue background
-    draw_rectangle(box_x, box_y, box_x + box_width, box_y + box_height, false);
+    //draw_rectangle(box_x, box_y, box_x + box_width, box_y + box_height, false);
+	draw_sprite(test_infobox, 0, box_x, box_y);
 
     // Text properties
     var text_margin = infobox_margin; // Fixed margin
@@ -26,8 +27,12 @@ if (global.object_in_focus != noone) {
     var text_x = box_x + text_margin;
     var text_y = box_y + text_margin;
 
-    draw_text(text_x, text_y, string(global.object_in_focus.title)); // Title at the top
-    draw_text(text_x, text_y + 20, string(global.object_in_focus.description)); // Description below the title
+    //draw_text(text_x, text_y, string(global.object_in_focus.title)); // Title at the top
+    //draw_text(text_x, text_y + 20, string(global.object_in_focus.description)); // Description below the title
+
+	draw_text_transformed(text_x, text_y, string(global.object_in_focus.title), 0.9, 0.9, 0);
+	draw_text_transformed(text_x, text_y+20, string(global.object_in_focus.flavor_text ), 0.6, 0.6, 0);
+
 
     // Add debugging information if global.debugger_on is true
     if (global.debugger_on) {
@@ -65,14 +70,14 @@ if (global.object_in_focus != noone) {
     }
 
     // Draw a line from the bottom-left corner of the box to the object in focus
-    var focus_x = global.object_in_focus.x;
-    var focus_y = global.object_in_focus.y;
+    //var focus_x = global.object_in_focus.x;
+    //var focus_y = global.object_in_focus.y;
 
     // Bottom-left of the box
-    var line_start_x = box_x;
-    var line_start_y = box_y + box_height;
+    //var line_start_x = box_x;
+    //var line_start_y = box_y + box_height;
 
     // Draw the line with the same color as the box
-    draw_set_color(c_blue);
-    draw_line(line_start_x, line_start_y, focus_x, focus_y);
+    //draw_set_color(c_blue);
+    //draw_line(line_start_x, line_start_y, focus_x, focus_y);
 }
