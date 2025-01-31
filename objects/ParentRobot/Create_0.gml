@@ -7,3 +7,8 @@ if equipment != noone {
 	equiped = gun_created
 
 }
+
+mode = 0
+//0 is off
+//1 is attack enemies
+//2 is attack all

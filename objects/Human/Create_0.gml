@@ -87,3 +87,12 @@ function monster_detected_human (monster_instance){
 		 break;
 	}
 }
+
+
+
+
+//flavor text functions
+name = get_random_name()
+favorite_animal = get_favorite_animal()
+favorite_color = get_favorite_color()
+flavor_text = get_flavor_text()
